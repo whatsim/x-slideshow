@@ -4,7 +4,7 @@ x-slideshow have an index property that will update the slideshow, or next/previ
 
 Just include...
 
-```javascript
+```html
 	<script type="text/javascript" src="scripts/x-slideshow.js"></script>
 ```
 
