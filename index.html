@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name = "viewport" content = "width = device-width,initial-scale = 1, user-scalable = no">
+		<title></title>
+		<script src="scripts/webcomponents.min.js"></script>
+		<script type="text/javascript" src="scripts/x-slideshow.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	</head>
+	<body>
+
+		<x-slideshow id="ss" onclick="ss.next()" slide-width="100%" slide-height="600px" src="assets/85250036.JPG, assets/85250035.JPG, assets/6294_24.jpg" index="2"></x-slideshow>
+		<div class="center">
+			<a onclick="ss.previous()">&laquo;</a>
+			<a onclick="ss.next()">&raquo;</a>
+		</div>
+		<br>
+		<x-slideshow id="s2" onclick="s2.next()" slide-width="500px" slide-height="300px" src="assets/85250035.JPG, assets/6294_24.jpg"></x-slideshow>
+		<div class="center">
+			<a onclick="s2.previous()">&laquo;</a>
+			<a onclick="s2.next()">&raquo;</a>
+		</div>
+	</body>
+</html>

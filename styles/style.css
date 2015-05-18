@@ -1,0 +1,13 @@
+x-slideshow {
+	margin:25px auto;
+}
+a {
+	display:inline-block;
+	background:#eee;
+	padding:2px 10px;
+	font-family:Helvetica, sans-serif
+}
+.center {
+	margin:0 auto 25px;
+	text-align:center;
+}
